@@ -1,17 +1,17 @@
 interface ICash {
-  orderByCash: () => void;
+  orderByCash(): void;
 }
 
 interface IInstallment {
-  orderByInstallment: () => void;
+  orderByInstallment(): void;
 }
 
 interface ICredit {
-  orderByCredit: () => void;
+  orderByCredit(): void;
 }
 
 interface IOnline {
-  orderByOnline: () => void;
+  orderByOnline(): void;
 }
 
 interface IOrder extends ICash, IInstallment, ICredit, IOnline {}
