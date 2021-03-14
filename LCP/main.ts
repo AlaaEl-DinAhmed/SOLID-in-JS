@@ -10,8 +10,8 @@ class Employee {
 
 class EmployeeWithBonus extends Employee {
   calculateBonus() {
-    const bous_amount = this.salary * 0.2;
-    console.log("Bonus amount is:", bous_amount);
+    const bonus = this.salary * 0.2;
+    console.log("Bonus amount is:", bonus);
   }
 }
 
