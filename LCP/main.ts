@@ -15,7 +15,7 @@ class EmployeeWithBonus extends Employee {
   }
 }
 
-class Permenant extends EmployeeWithBonus {
+class Permanent extends EmployeeWithBonus {
   constructor(salary: number) {
     super(salary);
   }
@@ -27,5 +27,5 @@ class Contract extends Employee {
   }
 }
 
-const per = new Permenant(1000);
+const per = new Permanent(1000);
 console.log(per.calculateBonus());
